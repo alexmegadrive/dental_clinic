@@ -1,0 +1,903 @@
+body {
+    margin: 0px;
+    width: 100%;
+    /* min-width: 320px; */
+}
+
+.header_main {
+    background-color: #DFDFDF;
+    height: 55px;
+    width: 100%;
+
+}
+
+.header_main__flexbox {
+    display: flex;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.header_main__logo {
+    width: 112px;
+    height: 24px;
+    top: 14px;
+    position: absolute;
+}
+
+.header_main__socials_container {
+    display: none;
+}
+
+.header_main__number_container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    right: 15%;
+    position: absolute;
+    top: 21px;
+}
+
+.header_main__number_text {
+    width: auto;
+    height: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 12px;
+    color: #000000;
+}
+
+.header_main__number_priem {
+    display: none;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.header_main__number_priem::before {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background: #1AD117;
+    content: ''
+}
+
+
+.header_main__menu_button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 23px;
+    top: 21px;
+}
+
+.header_main__menu_button_rectagle {
+    height: 1px;
+    width: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+}
+
+.infoblock1_container {
+    width: auto;
+    height: auto;
+    margin-top: 29px;
+    grid-area: text1;
+    padding-left: 29px;
+    padding-right: 29px;
+
+
+
+
+
+}
+
+.infoblock1 {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 50px; */
+    position: relative;
+}
+
+
+.infoblock1_1--desktop {
+    display: none;
+}
+
+.infoblock1_1--mobile {
+    width: auto;
+     font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 114.9%;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #067F53;
+}
+
+.infoblock1_2 {
+    /* position: absolute; */
+    width: auto;
+    /* height: 48px; */
+    top: 111px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 142.4%;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.infoblock1_3 {
+    /* position: absolute; */
+    width: auto;
+    /* height: 76px; */
+    /* top: 168px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 132.9%;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.infoblock1 > span:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.infoblock2_sparks {
+    display: none;
+}
+
+.infoblock4_text {
+    display: none;
+}
+
+.infoblock4_text--mobile {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 148.4%;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #067F53;
+}
+
+.infoblock4_text--desktop {
+    display: none;
+}
+
+.zayavka__container {
+    display: flex;
+    justify-content: center;
+    height: 48.78px;
+    margin: 30px 0px 30px 0px;
+    z-index: 1100;
+
+
+}
+
+#doctors_1  {
+  
+    height: 227px;
+}
+
+
+
+.zayavka__button {
+
+    width: 253px;
+    height: 48.78px;
+    border-width: 0px;
+    background: #067F53;
+    box-shadow: 0px 15.6093px 31.2185px -7.80463px rgba(17, 24, 39, 0.25);
+    border-radius: 42.9254px;
+
+}
+
+.zayavka__button_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zayavka__button_items_gift {
+    transform: rotate(-11.25deg);
+}
+
+.zayavka__button_items_text1 {
+    width: 156.74px;
+    height: 29.92px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.4062px;
+    line-height: 142.4%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.zayavka__button_items_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.16px;
+    height: 20.16px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arrow {
+    width: 15.16px;
+    height: 15.16px;
+}
+
+.zayavka__button_items_3_arrows {
+
+}
+
+.doctors__container {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-area: image;
+
+
+}
+
+.doctors__container_1 {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+
+}
+
+
+
+.doctors__container_2 {
+    position: absolute;
+    z-index: 2;
+    /* transform: rotate(-5.91deg); */
+    height: 200px
+
+}
+
+.doctors__container_3 {
+    position: absolute;
+    z-index: 3;
+}
+
+.doctors__container_doctors {
+    height: 240px;
+    position: absolute;
+    z-index: 4;
+    transform: translateY(-35px);
+}
+
+.doctors__container_patient{
+    height: 240px;
+    position: absolute;
+    z-index: 4;
+    transform: translateY(-35px);
+}
+
+.doctors__teeth_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    transform: translate(-85px, 120px);
+}
+
+.patient_bubble2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* margin: 0 auto; */
+
+    position: absolute;
+    z-index: 2000;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: 1px solid rgb(199, 199, 199);
+    background-color:white;
+    /* left:5px; */
+    /* bottom:100px; */
+    transform: translate(-130px, 101px);
+
+}
+
+.doctors__teeth_container_shape {
+    position: absolute;
+    z-index: 1;
+}
+
+.doctors__teeth_container_blur {
+    position: absolute;
+    z-index: 2;
+    box-sizing: border-box;
+    width: 77.2px;
+    height: 77.58px;
+    background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(20.6479px);
+    border-radius: 59.3635px;
+    transform: translate(0px, 5px);
+}
+
+.doctors__teeth_container_teeth {
+    position: absolute;
+    z-index: 3;
+}
+
+.infoblock2_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 29px;
+    padding-right: 29px;
+
+    grid-area: text2;
+
+}
+
+.infoblock2_block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+
+}
+
+.infoblock2_uppertext {
+
+    /* margin-top: 15px; */
+
+    /* width: 200px; */
+    /* height: 42px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 142.4%;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.infoblock2_lowertext {
+    vertical-align: top;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 12px;
+    /* width: 212px; */
+    /* height: 39px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 132.9%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}
+
+.infoblock2_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 32.91px;
+    height: 32.91px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 50%;
+    border: 0.54844px solid #000000;
+    box-shadow: 0px 10.9688px 13.1626px -2.19376px rgba(17, 24, 39, 0.32), 0px 4.38752px 4.38752px -2.19376px rgba(17, 24, 39, 0.36);
+}
+
+.infoblock2_image>img {
+    position: absolute;
+}
+
+.img_kreslo {
+    display: none;
+}
+
+.img_patient_bubble {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    z-index: 2000;
+    /* left: 10px; */
+    transform: translate(-122px, 30px);
+
+   
+}
+
+.main1_rectangle {
+    display: none;
+
+}
+.infoblock4_text_small--black{
+    display: none;
+
+}
+
+
+#button_desktop {
+    display: none;
+}
+
+
+#zayavka__mobile2 {
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+}
+
+.patient_bubble2_4500r {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.26548px;
+    line-height: 142.4%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.5;
+    
+    }
+.patient_bubble2_0r {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20.1819px;
+line-height: 142.4%;
+/* or 29px */
+display: flex;
+align-items: center;
+letter-spacing: -0.065em;
+
+/* зел */
+
+color: #067F53;
+}
+
+
+
+
+
+/* ................ адаптивность ............... */
+
+
+@media (min-width: 700.98px) {
+    body {
+        min-width: 1500px;
+    }
+
+    .header_main {
+        /* padding-left: 15vw;  */
+        height: 10px;
+
+
+    }
+
+    .header_main__number_container {
+        top: 30px;
+    }
+
+    .main1_grid_container {
+        position: relative;
+        background: #F0F0F0;
+        /* padding-left: 15vw; */
+        /* padding-right: 15vw; */
+        padding-bottom: 40px;
+        padding-top: 60px;
+        min-height: 660px;
+        /* display: grid;
+        grid-template-areas:
+
+            "text1 image image image"
+            "text1 image image image"
+            "text2 image image image"
+            "text2 image image image"; */
+    }
+
+    .main2_container {
+        position: relative;
+    }
+
+    .infoblock2_block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .infoblock2_sparks {
+        display: block;
+        position: relative;
+    }
+
+    #img_spark_small {
+        position: absolute;
+        left: -251px;
+        top: 67px;
+    }
+    #img_spark_medium {
+        position: absolute;
+        left: -332px;
+        top: 132px;
+    }
+    #img_spark_big {
+        position: absolute;
+        left: 124px;
+    top: -65px;
+    }
+
+    #zayavka__container1 {
+        display: none;
+    }
+
+    .img_patient_bubble {
+        width: 121px;
+        height: 121px;
+        transform: translate(-245px, 72px)
+        /* left: -12px; */
+        /* top: 49px; */
+    
+    }
+
+    .doctors__container {
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+    }
+
+    .infoblock2_uppertext {
+        height: 30px;
+        width: auto;
+        font-size: 24px;
+    }
+
+    .infoblock2_lowertext {
+        min-height: 15px;
+        width: auto;
+        font-size: 18px;
+        max-width: 531px;
+
+    }
+
+    .header_main {
+        height: 94px;
+        /* min-width: 1500px; */
+    }
+
+    .header_main__logo {
+        height: 47px;
+        width: 219px;
+        margin-left: 15vw;
+    }
+
+    .infoblock1_container .infoblock2_container {
+        margin-left: 0px;
+    }
+
+    .header_main__number_text {
+        font-size: 20px;
+    }
+
+    .header_main__number_priem {
+        display: block;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+
+        letter-spacing: -0.015em;
+
+        color: #000000;
+    }
+
+    .header_main__menu_button {
+        display: none;
+    }
+
+    .header_main__socials_container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 120px;
+        height: auto;
+        position: absolute;
+        top: 30px;
+        right: 30%;
+    }
+
+    .header_main__socials_element{
+        /* background-size: 17px 17px; */
+        height: 32px;
+        width: 32px;
+        background-color:#b8b3b3;
+        border-radius: 50%;
+        /* opacity: 0.1; */
+       
+    }
+.header_main__socials_vk {
+    background-image: url('images/header/vk.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_main__socials_inst {
+    background-image: url('images/header/inst.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header_main__socials_youtube {
+    background-image: url('images/header/youtube.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    /* .header_main__socials_image {
+        height: 17px;
+        width: 17px;
+    } */
+
+    .infoblock1_1--mobile {
+        display: none
+    }
+
+    .infoblock1_2 {
+        display: none
+    }
+
+    .infoblock1_1--desktop {
+        
+        width: 724px;
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 142.4%;
+        /* or 57px */
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: #067F53;
+    }
+
+    .infoblock1_3 {
+        width: 390px;
+        top: 182px;
+    }
+
+    .doctors__container_1 {
+        height: 350px;
+    }
+
+    .patient__container_1 {
+        height: 350px;
+    }
+
+    .doctors__container_2 {
+        height: 348px;
+            transform: rotate(0deg);
+    }
+
+    .doctors__container_3 {
+        height: 360px;
+    }
+
+    .doctors__container_doctors {
+        height: 396px;
+        transform: translateY(-45px);
+    }
+    .doctors__container_patient {
+        height: 400px;
+        transform: translateY(-45px);
+    }
+
+    .doctors__teeth_container {
+        transform: translate(-144px, 237px);
+    }
+
+    .doctors__teeth_container_shape {
+        height: 150px;
+        width: 140px;
+        transform: translateY(-12px);
+
+
+    }
+
+    .doctors__teeth_container_teeth {
+        height: 140px;
+        width: 140px;
+        transform: translateY(-25px);
+
+    }
+
+    .doctors__teeth_container_blur {
+        height: 120px;
+        width: 120px;
+    }
+
+    .patient_bubble2 {
+       
+        width: 120px;
+        height: 120px;
+        /* left: -52px; */
+        /* bottom: -36px; */
+        transform: translate(-262px, 196px);
+        
+      
+    }
+    .patient_bubble2_4500r {
+        font-size: 18px;
+    }
+    .patient_bubble2_0r {
+        font-size: 40px;
+
+    }
+    .img_kreslo {
+        position: absolute;
+        top: 94px;
+        right: 0px;
+        display: inline;
+    }
+
+    .main1_rectangle {
+        display: block;
+        /* width: 0; */
+        /* height: 10; */
+        border-left: 49vw solid transparent;
+        border-right: 49vw solid transparent;
+        border-top: 30px solid #F0F0F0;
+        z-index: 2000;
+
+    }
+
+    .main2_container {
+        min-height: 350px;
+
+    }
+
+    #doctors_2 {
+        position: absolute;
+        bottom: 0px;
+        /* left:0px; */
+        /* right: 50px; */
+        /* transform: translate(0px, -40px); */
+        /* justify-content: right; */
+        right: 15vw;
+        width: 500px;
+    }
+
+    .header_main__flexbox {
+        position: relative;
+    }
+
+    .infoblock1_container {
+        position: absolute;
+        left:15vw;
+    }
+
+     .infoblock2_container {
+        position: absolute;
+        left:15vw;
+        top: 350px;
+    } 
+
+
+    .infoblock4_container--desktop {
+        position: absolute;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        left: 15vw;
+        margin-top: 5vw;
+    }
+
+
+    .infoblock4_text--mobile {
+        display: none;
+    }
+
+    #button_desktop {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .infoblock4_text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 142.4%;
+        /* or 43px */
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
+    }
+
+.infoblock4_text_small--black {
+    display: block;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142.4%;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+color: #000000;
+}
+
+.infoblock4_text_small--green {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142.4%;
+letter-spacing: -0.015em;
+text-transform: uppercase;
+color: #067F53;
+}
+
+    .infoblock4_text--green {
+        color: #067F53;
+    }
+
+
+
+    .infoblock4_text--black {
+        color: black;
+    }
+
+    .infoblock4_text {
+        display: block;
+    }
+
+    #zayavka__mobile2 {
+        display: none;
+    }
+
+    #doctors_1  {
+        position: absolute;
+        right: 15vw;
+        top: 150px;
+        width: 500px;
+    }
+
+}
